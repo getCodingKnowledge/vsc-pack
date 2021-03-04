@@ -52,12 +52,11 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 
 ```json
 {
-	"window.zoomLevel": 0,
 	"editor.minimap.enabled": false,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
 	"workbench.activityBar.visible": false,
-	"workbench.statusBar.visible": false,
+	"workbench.statusBar.visible": true,
 	"files.exclude": {
 		"**/.classpath": true,
 		"**/.project": true,
@@ -84,13 +83,16 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"editor.fontFamily": "Consolas",
+	"editor.fontFamily": "Cascadia Code",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"workbench.tree.indent": 22,
+	"kite.showWelcomeNotificationOnStartup": false,
+	"window.zoomLevel": 2,
 	"workbench.iconTheme": "moxer-icons",
-	"workbench.colorTheme": "Dobri Next -A00- Black"
+	"workbench.colorTheme": "Rainbow Contrast (rainglow)"
 }
+
 ```
 
 ## License
