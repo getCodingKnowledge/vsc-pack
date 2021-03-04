@@ -1,0 +1,39 @@
+{
+    "name": "getcodingknowledge-pack",
+    "displayName": "getCodingKnowledge Extension Pack",
+    "description": "Toutes les extensions que getCodingKnowledge utilise dans ses vidéos",
+    "license": "MIT",
+    "version": "0.7.0",
+    "icon": "icon.png",
+    "publisher": "noxaled",
+    "keywords": [
+        "getcodingknowledge pack",
+        "getcodingknowledge",
+        "gckn"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/noxaled/gckn-pack"
+    },
+    "bugs": {
+        "url": "https://github.com/noxaled/gckn-pack/issues"
+    },
+    "homepage": "https://github.com/noxaled/gckn-pack",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "piotrpalarz.vscode-gitignore-generator",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer-2",
+        "usernamehw.errorlens",
+        "mhutchie.git-graph",
+        "wix.vscode-import-cost",
+        "equinusocio.moxer-icons",
+        "daylerees.rainglow",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
