@@ -13,12 +13,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/noxaled/gckn-pack"
+        "url": "https://github.com/gckalex/vsc-pack"
     },
     "bugs": {
-        "url": "https://github.com/noxaled/gckn-pack/issues"
+        "url": "https://github.com/gckalex/vsc-pack/issues"
     },
-    "homepage": "https://github.com/noxaled/gckn-pack",
+    "homepage": "https://github.com/gckalex/vsc-pack",
     "engines": {
         "vscode": "^1.47.0"
     },
