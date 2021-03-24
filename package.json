@@ -28,10 +28,8 @@
     "extensionPack": [
         "piotrpalarz.vscode-gitignore-generator",
         "aaron-bond.better-comments",
-        "coenraads.bracket-pair-colorizer-2",
         "usernamehw.errorlens",
         "mhutchie.git-graph",
-        "wix.vscode-import-cost",
         "equinusocio.moxer-icons",
         "visualstudioexptteam.vscodeintellicode",
         "noxaled.gck-theme"
