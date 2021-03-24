@@ -13,12 +13,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/gckalex/vsc-pack"
+        "url": "https://github.com/getCodingKnowledge/vsc-pack"
     },
     "bugs": {
-        "url": "https://github.com/gckalex/vsc-pack/issues"
+        "url": "https://github.com/getCodingKnowledge/vsc-pack/issues"
     },
-    "homepage": "https://github.com/gckalex/vsc-pack",
+    "homepage": "https://github.com/getCodingKnowledge/vsc-pack",
     "engines": {
         "vscode": "^1.47.0"
     },
@@ -34,6 +34,7 @@
         "wix.vscode-import-cost",
         "equinusocio.moxer-icons",
         "daylerees.rainglow",
-        "visualstudioexptteam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
+        "noxaled.gck-theme"
     ]
 }
