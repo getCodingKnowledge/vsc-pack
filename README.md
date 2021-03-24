@@ -56,7 +56,6 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
 	"workbench.activityBar.visible": false,
-	"workbench.statusBar.visible": true,
 	"files.exclude": {
 		"**/.classpath": true,
 		"**/.project": true,
@@ -70,7 +69,7 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
 	"prettier.arrowParens": "avoid",
 	"prettier.singleQuote": true,
@@ -81,18 +80,22 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"prettier.endOfLine": "auto",
 	"prettier.proseWrap": "never",
 	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"editor.fontFamily": "Cascadia Code",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
-	"workbench.tree.indent": 22,
+	"workbench.tree.indent": 10,
 	"kite.showWelcomeNotificationOnStartup": false,
-	"window.zoomLevel": 2,
 	"workbench.iconTheme": "moxer-icons",
-	"workbench.colorTheme": "Rainbow Contrast (rainglow)"
+	"workbench.colorTheme": "gckn",
+	"zenMode.centerLayout": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"zenMode.hideLineNumbers": false,
+	"explorer.compactFolders": false,
+	"window.zoomLevel": 2,
+	"workbench.statusBar.visible": false
 }
-
 ```
 
 ## License
