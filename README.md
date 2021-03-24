@@ -20,8 +20,8 @@ En installant mon pack, ces extensions seront installées:
   - Display import/require package size in the editor
 - [📦 Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons)
   - Moxer Icons, the epic icons companion for Moxer Theme
-- [📦 Rainglow](https://marketplace.visualstudio.com/items?itemName=daylerees.rainglow)
-  - Rainglow color themes by Dayle Rees
+- [📦 getCodingKnowledge Theme](https://marketplace.visualstudio.com/items?itemName=noxaled.gck-theme)
+  - Theme I'm using in my latest videos
 - [📦 Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - AI-assisted development
 
@@ -29,14 +29,14 @@ En installant mon pack, ces extensions seront installées:
 
 J'utilise trois thèmes, un pour mes vidéos, un autre perso et un ancien de temps en temps. Voici les extensions:
 
+- getCodingKnowledge Theme (thème des nouvelles vidéos)
+
+### Ancien thèmes perso
+
 - Rainglow (new theme) & Moxer (icons)
 - Dark+ (le thème des nouvelles vidéos (thème par défaut de VSCode))
 - Gruvbox Theme (thème de mes anciennes vidéos)
   - Nom du thème: Gruvbox Dark Medium
-
-
-### Ancien thèmes perso
-
 - Dobri Next (Ancien Themes and Icons)
 - Moxer Theme (ancien thème perso)
   - Nom du thème: Moxer
