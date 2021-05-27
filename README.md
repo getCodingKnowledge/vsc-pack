@@ -13,34 +13,38 @@ En installant mon pack, ces extensions seront installées:
 - [📦 Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   - Improve highlighting of errors, warnings and other language diagnostics
 - [📦 Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-  - View a Git Graph of your repository, and easily perform Git actions from the graph.
+  - View a Git Graph of your repository, and easily perform Git actions from the graph
 - [📦 Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons)
   - Moxer Icons, the epic icons companion for Moxer Theme
 - [📦 getCodingKnowledge Theme](https://marketplace.visualstudio.com/items?itemName=noxaled.gck-theme)
   - Theme I'm using in my latest videos
+- [📦 Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+	- Automating the process of writing meaningful log messages
+- [📦 TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+	- Highlight TODOs, FIXMEs, and any keywords, annotations...
 - [📦 Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - AI-assisted development
 
 ## Themes
 
-J'utilise trois thèmes, un pour mes vidéos, un autre perso et un ancien de temps en temps. Voici les extensions:
+J'utilise en général trois thèmes, un pour mes vidéos, un autre perso et un ancien de temps en temps. Cependant, ces dernières temps je n'en utilise que deux:
 
-- getCodingKnowledge Theme (thème des nouvelles vidéos)
+- Dark+ (le thème des nouvelles vidéos (thème par défaut de VSCode))
+- getCodingKnowledge Theme (perso) & Moxer (icons)
+
+La police que j'utilise dans les vidéos -> Consolas
+La police que j'utilise personellement -> Hack Nerd Font
 
 ### Ancien thèmes perso
 
-- Rainglow (new theme) & Moxer (icons)
-- Dark+ (le thème des nouvelles vidéos (thème par défaut de VSCode))
-- Gruvbox Theme (thème de mes anciennes vidéos)
+- Rainglow 
+- Gruvbox Theme
   - Nom du thème: Gruvbox Dark Medium
-- Dobri Next (Ancien Themes and Icons)
-- Moxer Theme (ancien thème perso)
+- Dobri Next 
+- Moxer Theme
   - Nom du thème: Moxer
-- Ayu (ancien thème perso)
+- Ayu
   - Nom du thème: Ayu Dark Bordered
-
-La police que j'utilise dans les vidéos -> Consolas
-La police que j'utilise personellement -> CascadaCode
 
 ## Settings
 
@@ -82,11 +86,9 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"workbench.tree.indent": 10,
-	"kite.showWelcomeNotificationOnStartup": false,
 	"workbench.iconTheme": "moxer-icons",
 	"workbench.colorTheme": "gckn",
 	"zenMode.centerLayout": false,
-	"liveServer.settings.donotShowInfoMsg": true,
 	"zenMode.hideLineNumbers": false,
 	"explorer.compactFolders": false,
 	"window.zoomLevel": 2,

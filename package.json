@@ -32,6 +32,8 @@
         "mhutchie.git-graph",
         "equinusocio.moxer-icons",
         "visualstudioexptteam.vscodeintellicode",
-        "noxaled.gck-theme"
+        "noxaled.gck-theme",
+        "wayou.vscode-todo-highlight",
+        "ChakrounAnas.turbo-console-log"
     ]
 }
