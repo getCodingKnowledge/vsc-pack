@@ -22,6 +22,8 @@ En installant mon pack, ces extensions seront installées:
 	- Automating the process of writing meaningful log messages
 - [📦 TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 	- Highlight TODOs, FIXMEs, and any keywords, annotations...
+- [📦 GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
+	- Real-time features remote development teams need to work together effectively
 - [📦 Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - AI-assisted development
 
