@@ -16,8 +16,8 @@ En installant mon pack, ces extensions seront installées:
   - View a Git Graph of your repository, and easily perform Git actions from the graph
 - [📦 Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons)
   - Moxer Icons, the epic icons companion for Moxer Theme
-- [📦 getCodingKnowledge Theme](https://marketplace.visualstudio.com/items?itemName=noxaled.gck-theme)
-  - Theme I'm using in my latest videos
+- [📦 Gruvbox](https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis)
+  - Concoction of Gruvbox themes
 - [📦 Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 	- Automating the process of writing meaningful log messages
 - [📦 TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
@@ -32,13 +32,14 @@ En installant mon pack, ces extensions seront installées:
 J'utilise en général trois thèmes, un pour mes vidéos, un autre perso et un ancien de temps en temps. Cependant, ces dernières temps je n'en utilise que deux:
 
 - Dark+ (le thème des nouvelles vidéos (thème par défaut de VSCode))
-- getCodingKnowledge Theme (perso) & Moxer (icons)
+- Gruvbox Concoctis & Moxer (icons)
 
 La police que j'utilise dans les vidéos -> Consolas
 La police que j'utilise personellement -> Hack Nerd Font
 
 ### Ancien thèmes perso
 
+- getCodingKnowledge Theme (perso) & Moxer (icons)
 - Rainglow 
 - Gruvbox Theme
   - Nom du thème: Gruvbox Dark Medium
