@@ -58,12 +58,11 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.minimap.enabled": false,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
-	"workbench.activityBar.visible": false,
 	"files.exclude": {
-		"**/.classpath": true,
-		"**/.project": true,
-		"**/.settings": true,
-		"**/.factorypath": true
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
 	},
 	"explorer.confirmDelete": false,
 	"extensions.ignoreRecommendations": true,
@@ -72,7 +71,7 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 	"[javascript]": {
-		"editor.defaultFormatter": "vscode.typescript-language-features"
+			"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
 	"prettier.arrowParens": "avoid",
 	"prettier.singleQuote": true,
@@ -83,19 +82,19 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"prettier.endOfLine": "auto",
 	"prettier.proseWrap": "never",
 	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
+			"editor.defaultFormatter": "vscode.json-language-features"
 	},
 	"editor.fontFamily": "Cascadia Code",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"workbench.tree.indent": 10,
 	"workbench.iconTheme": "moxer-icons",
-	"workbench.colorTheme": "gckn",
+	"workbench.colorTheme": "gruvboxConcoctis dark hard",
 	"zenMode.centerLayout": false,
 	"zenMode.hideLineNumbers": false,
 	"explorer.compactFolders": false,
 	"window.zoomLevel": 2,
-	"workbench.statusBar.visible": false
+	"workbench.activityBar.visible": false
 }
 ```
 
