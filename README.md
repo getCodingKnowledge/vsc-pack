@@ -84,7 +84,7 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"[json]": {
 			"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"editor.fontFamily": "Cascadia Code",
+	"editor.fontFamily": "Consolas",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"workbench.tree.indent": 10,
