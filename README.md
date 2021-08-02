@@ -12,18 +12,20 @@ En installant mon pack, ces extensions seront installées:
   - Human-friendly comments in your code
 - [📦 Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   - Improve highlighting of errors, warnings and other language diagnostics
+- [📦 Front Matter](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-front-matter)
+	- Simplifies working with front matter, useful for static site generator like: Hugo, Jekyll, Hexo, NextJs, Gatsby, and many more...
+- [📦 GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
+	- Real-time features remote development teams need to work together effectively
 - [📦 Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
   - View a Git Graph of your repository, and easily perform Git actions from the graph
-- [📦 Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons)
-  - Moxer Icons, the epic icons companion for Moxer Theme
 - [📦 Gruvbox](https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis)
   - Concoction of Gruvbox themes
+- [📦 Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons)
+  - Moxer Icons, the epic icons companion for Moxer Theme
 - [📦 Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 	- Automating the process of writing meaningful log messages
 - [📦 TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 	- Highlight TODOs, FIXMEs, and any keywords, annotations...
-- [📦 GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
-	- Real-time features remote development teams need to work together effectively
 - [📦 Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - AI-assisted development
 
