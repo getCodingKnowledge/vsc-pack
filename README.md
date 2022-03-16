@@ -22,6 +22,10 @@ En installant mon pack, ces extensions seront installées:
 	- Real-time features remote development teams need to work together effectively
 - [📦 Gruvbox Material](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material)
   - Gruvbox with Material Palette
+- [📦 Hungry Delete](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete)
+  - Delete an entire block of whitespace or tab
+- [📦 TabOut](https://marketplace.visualstudio.com/items?itemName=albert.TabOut)
+	- Tab out of quotes, brackets, etc
 - [📦 TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 	- Highlight TODOs, FIXMEs, and any keywords, annotations...
 - [📦 Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
