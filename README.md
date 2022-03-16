@@ -8,39 +8,40 @@ En installant mon pack, ces extensions seront installées:
 
 - [📦 .gitignore Generator](https://marketplace.visualstudio.com/items?itemName=piotrpalarz.vscode-gitignore-generator)
   - Generate .gitignore file using gitignore.io API
+- [📦 AI Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document)
+  - AI powered documentation writer
+- [📦 Ayu Icons](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+  - Simple theme with bright colors and comes in three versions (mainly using it for icons)
 - [📦 Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
   - Human-friendly comments in your code
+- [📦 Bracket-padder](https://marketplace.visualstudio.com/items?itemName=viablelab.bracket-padder)
+  - Smart whitespace padding & auto-closing for bracket pairs
 - [📦 Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   - Improve highlighting of errors, warnings and other language diagnostics
-- [📦 Front Matter](https://marketplace.visualstudio.com/items?itemName=eliostruyf.vscode-front-matter)
-	- Simplifies working with front matter, useful for static site generator like: Hugo, Jekyll, Hexo, NextJs, Gatsby, and many more...
 - [📦 GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
 	- Real-time features remote development teams need to work together effectively
-- [📦 Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
-  - View a Git Graph of your repository, and easily perform Git actions from the graph
-- [📦 Gruvbox](https://marketplace.visualstudio.com/items?itemName=wheredoesyourmindgo.gruvbox-concoctis)
-  - Concoction of Gruvbox themes
-- [📦 Moxer Icons](https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons)
-  - Moxer Icons, the epic icons companion for Moxer Theme
-- [📦 Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
-	- Automating the process of writing meaningful log messages
+- [📦 Gruvbox Material](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material)
+  - Gruvbox with Material Palette
 - [📦 TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
 	- Highlight TODOs, FIXMEs, and any keywords, annotations...
+- [📦 Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
+	- Automating the process of writing meaningful log messages
 - [📦 Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
   - AI-assisted development
 
 ## Themes
 
-J'utilise en général trois thèmes, un pour mes vidéos, un autre perso et un ancien de temps en temps. Cependant, ces dernières temps je n'en utilise que deux:
+J'utilise en général deux thèmes, un pour mes vidéos, un autre perso:
 
-- Dark+ (le thème des nouvelles vidéos (thème par défaut de VSCode))
-- Gruvbox Concoctis & Moxer (icons)
+- Vidéos: Dark+ (thème) & Ayu (file icons)
+- Perso: Gruvbox Material (thème) & Ayu (file icons)
 
 La police que j'utilise dans les vidéos -> Consolas
-La police que j'utilise personellement -> Hack Nerd Font
+La police que j'utilise personellement -> Iosevka
 
 ### Ancien thèmes perso
 
+- Moxer Icons & Gruvbox Concoctis
 - getCodingKnowledge Theme (perso) & Moxer (icons)
 - Rainglow 
 - Gruvbox Theme
@@ -67,6 +68,7 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 			"**/.factorypath": true
 	},
 	"explorer.confirmDelete": false,
+	"gruvboxMaterial.darkContrast": "hard",
 	"extensions.ignoreRecommendations": true,
 	"explorer.confirmDragAndDrop": false,
 	"workbench.sideBar.location": "right",
@@ -75,14 +77,9 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"[javascript]": {
 			"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
-	"prettier.arrowParens": "avoid",
-	"prettier.singleQuote": true,
-	"prettier.trailingComma": "all",
-	"prettier.useTabs": true,
 	"git.enableSmartCommit": true,
 	"git.autofetch": true,
-	"prettier.endOfLine": "auto",
-	"prettier.proseWrap": "never",
+	"editor.letterSpacing": 0.8,
 	"[json]": {
 			"editor.defaultFormatter": "vscode.json-language-features"
 	},
@@ -90,13 +87,56 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"workbench.tree.indent": 10,
-	"workbench.iconTheme": "moxer-icons",
-	"workbench.colorTheme": "gruvboxConcoctis dark hard",
+	"workbench.iconTheme": "ayu",
 	"zenMode.centerLayout": false,
 	"zenMode.hideLineNumbers": false,
 	"explorer.compactFolders": false,
+	"GitLive.Issue tracker integration": "Disabled",
+	"workbench.statusBar.visible": false,
+	"workbench.activityBar.visible": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"todohighlight.keywords": [
+		{
+			"text": "NOTE:",
+			"color": "#000",
+			"backgroundColor": "aqua",
+			"overviewRulerColor": "yellow",
+		},
+		{
+			"text": "HACK:",
+			"color": "#000",
+		},
+		{
+			"text": "TODO:",
+			"color": "red",
+			"border": "1px solid red",
+			"borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+			"backgroundColor": "rgba(0,0,0,.2)",
+			//other styling properties goes here ... 
+		}
+	],
+	"go.toolsManagement.autoUpdate": true,
+	"go.useLanguageServer": true,
+	"errorLens.enabledDiagnosticLevels": [
+		"warning",
+		"info",
+		"error"
+	],
+	"carbon.backgroundColor": "rgba(0,0,0,0)",
+	"carbon.theme": "shades-of-purple",
+	"carbon.dropShadow": false,
+	"carbon.windowControls": false,
+	"carbon.autoAdjustWidth": true,
+	"carbon.fontFamily": "Hack",
+	"[markdown]": {
+		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"workbench.colorTheme": "Gruvbox Material Dark",
+	"http.systemCertificates": false,
+	"workbench.colorCustomizations": {},
 	"window.zoomLevel": 2,
-	"workbench.activityBar.visible": false
+	"Lua.telemetry.enable": false
 }
 ```
 

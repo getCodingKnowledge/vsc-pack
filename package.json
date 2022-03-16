@@ -27,15 +27,15 @@
     ],
     "extensionPack": [
         "piotrpalarz.vscode-gitignore-generator",
+        "mintlify.document",
+        "teabyii.ayu",
         "aaron-bond.better-comments",
+        "viablelab.bracket-padder",
         "usernamehw.errorlens",
-        "mhutchie.git-graph",
-        "equinusocio.moxer-icons",
-        "visualstudioexptteam.vscodeintellicode",
-        "wheredoesyourmindgo.gruvbox-concoctis",
-        "wayou.vscode-todo-highlight",
         "TeamHub.teamhub",
+        "sainnhe.gruvbox-material",
+        "wayou.vscode-todo-highlight",
         "ChakrounAnas.turbo-console-log",
-        "eliostruyf.vscode-front-matter"
+        "VisualStudioExptTeam.vscodeintellicode"
     ]
 }
