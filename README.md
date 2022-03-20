@@ -18,8 +18,6 @@ En installant mon pack, ces extensions seront installées:
   - Smart whitespace padding & auto-closing for bracket pairs
 - [📦 Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
   - Improve highlighting of errors, warnings and other language diagnostics
-- [📦 GitLive](https://marketplace.visualstudio.com/items?itemName=TeamHub.teamhub)
-	- Real-time features remote development teams need to work together effectively
 - [📦 Gruvbox Material](https://marketplace.visualstudio.com/items?itemName=sainnhe.gruvbox-material)
   - Gruvbox with Material Palette
 - [📦 Hungry Delete](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete)
