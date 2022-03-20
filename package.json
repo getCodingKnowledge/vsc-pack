@@ -3,7 +3,7 @@
     "displayName": "getCodingKnowledge Extension Pack",
     "description": "Toutes les extensions que getCodingKnowledge utilise dans ses vidéos",
     "license": "MIT",
-    "version": "0.20.0",
+    "version": "0.21.0",
     "icon": "icon.png",
     "publisher": "noxaled",
     "keywords": [
