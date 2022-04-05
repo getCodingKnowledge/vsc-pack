@@ -59,54 +59,22 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 	"editor.minimap.enabled": false,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "on",
-	"files.exclude": {
-			"**/.classpath": true,
-			"**/.project": true,
-			"**/.settings": true,
-			"**/.factorypath": true
-	},
 	"explorer.confirmDelete": false,
-	"gruvboxMaterial.darkContrast": "hard",
 	"extensions.ignoreRecommendations": true,
 	"explorer.confirmDragAndDrop": false,
 	"workbench.sideBar.location": "right",
 	"editor.suggestSelection": "first",
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-	"git.enableSmartCommit": true,
-	"git.autofetch": true,
-	"editor.letterSpacing": 0.8,
 	"editor.fontFamily": "Consolas",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 14,
 	"workbench.tree.indent": 10,
-	"workbench.iconTheme": "ayu",
+	"workbench.iconTheme": "eq-material-theme-icons",
 	"zenMode.centerLayout": false,
 	"zenMode.hideLineNumbers": false,
 	"explorer.compactFolders": false,
-	"GitLive.Issue tracker integration": "Disabled",
 	"workbench.statusBar.visible": false,
 	"workbench.activityBar.visible": false,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"todohighlight.keywords": [
-		{
-			"text": "NOTE:",
-			"color": "#000",
-			"backgroundColor": "aqua",
-			"overviewRulerColor": "yellow",
-		},
-		{
-			"text": "HACK:",
-			"color": "#000",
-		},
-		{
-			"text": "TODO:",
-			"color": "red",
-			"border": "1px solid red",
-			"borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
-			"backgroundColor": "rgba(0,0,0,.2)",
-			//other styling properties goes here ... 
-		}
-	],
 	"go.toolsManagement.autoUpdate": true,
 	"go.useLanguageServer": true,
 	"errorLens.enabledDiagnosticLevels": [
@@ -114,21 +82,13 @@ Vous pouvez aussi copier les paramètres que j'utilise en ouvrant `Preferences: 
 		"info",
 		"error"
 	],
-	"carbon.backgroundColor": "rgba(0,0,0,0)",
-	"carbon.theme": "shades-of-purple",
-	"carbon.dropShadow": false,
-	"carbon.windowControls": false,
-	"carbon.autoAdjustWidth": true,
-	"carbon.fontFamily": "Hack",
-	"[markdown]": {
-		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
-	},
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"workbench.colorTheme": "Gruvbox Material Dark",
 	"http.systemCertificates": false,
 	"workbench.colorCustomizations": {},
-	"window.zoomLevel": 2,
-	"Lua.telemetry.enable": false
+	"window.zoomLevel": 1,
+	"Lua.telemetry.enable": false,
+	"editor.inlineSuggest.enabled": true,
+	"workbench.colorTheme": "Community Material Theme Darker High Contrast"
 }
 ```
 
