@@ -28,15 +28,13 @@
     "extensionPack": [
         "piotrpalarz.vscode-gitignore-generator",
         "mintlify.document",
-        "teabyii.ayu",
-        "aaron-bond.better-comments",
         "viablelab.bracket-padder",
+        "kisstkondoros.vscode-codemetrics",
+        "Equinusocio.vsc-community-material-theme",
         "usernamehw.errorlens",
-        "sainnhe.gruvbox-material",
         "jasonlhy.hungry-delete",
+        "Equinusocio.vsc-material-theme-icons",
         "albert.TabOut",
-        "wayou.vscode-todo-highlight",
-        "ChakrounAnas.turbo-console-log",
         "VisualStudioExptTeam.vscodeintellicode"
     ]
 }
